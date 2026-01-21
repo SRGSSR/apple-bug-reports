@@ -1,0 +1,67 @@
+default	2025-07-29 09:27:43.997019 +0200	mediaplaybackd	<<<< FigPKDKeyManager >>>> keyManager_createExchangeContextAndKeyRequestInternal: 0xd923dfa00 00A184AF-B68F-4225-A265-A9DC81C453EF created key request for 0 with error:0
+default	2025-07-29 09:27:43.997025 +0200	mediaplaybackd	<<<< FigCPECryptorPKD >>>> FigPKDCPECryptorCreateKeyRequest: 0xd933f0c10 00A184AF-B68F-4225-A265-A9DC81C453EF keyInfo:[] err=0 keyRequest:0xd920e4000
+default	2025-07-29 09:27:43.997039 +0200	mediaplaybackd	keyboss ckb_createRequestData: 0xd925dc010 3/0 keyReqData 0xd920e4000 err 0
+default	2025-07-29 09:27:43.997179 +0200	DRMPlayer	<<<< AVContentKeySession >>>> -[AVContentKeyRequest makeStreamingContentKeyRequestDataForApp:contentIdentifier:options:completionHandler:]_block_invoke: 0x10268dfe0 created key request:0x10e4ee000 key-request-length:7776 for contentId:[] options:[] err:(null)
+default	2025-07-29 09:27:43.997478 +0200	DRMPlayer	Task <E62DBB3C-579B-409F-914C-12826755EC8E>.<2> resuming, timeouts(60.0, 604800.0) qos(0x15) voucher(<OS_voucher: 0x10e6a1a40>) activity(00000000-0000-0000-0000-000000000000)
+debug	2025-07-29 09:27:43.997486 +0200	DRMPlayer	Returning should log: 0 for activity cfnetwork:foreground_task
+debug	2025-07-29 09:27:43.997493 +0200	DRMPlayer	Domain cfnetwork rate configured in registry as 1 / 20000
+debug	2025-07-29 09:27:43.997494 +0200	DRMPlayer	Domain cfnetwork rate configured after remote default override as 1 / 20000
+debug	2025-07-29 09:27:43.997497 +0200	DRMPlayer	After reading settings plist, domain cfnetwork rate configured as 1 / 1000000
+debug	2025-07-29 09:27:43.997498 +0200	DRMPlayer	After settings override, domain cfnetwork rate configured as 1 / 1000000
+debug	2025-07-29 09:27:43.997500 +0200	DRMPlayer	Final domain cfnetwork rate configured as 1 / 1000000
+debug	2025-07-29 09:27:43.997517 +0200	DRMPlayer	<nw_activity 12:2 [No UUID] (reporting strategy default)> sampled at 1 / 1000000
+debug	2025-07-29 09:27:43.997519 +0200	DRMPlayer	Returning should log: 0 for activity cfnetwork:foreground_task
+debug	2025-07-29 09:27:43.997520 +0200	DRMPlayer	Returning should log: 0 for activity cfnetwork:foreground_task
+debug	2025-07-29 09:27:43.997546 +0200	DRMPlayer	[Telemetry]: Activity <nw_activity 12:2 [145DC70F-66B6-47FB-9F32-5921E52B4B88] (reporting strategy default)> on Task <E62DBB3C-579B-409F-914C-12826755EC8E>.<2> was not selected for reporting
+debug	2025-07-29 09:27:44.005481 +0200	DRMPlayer	Task <E62DBB3C-579B-409F-914C-12826755EC8E>.<2> {strength 1, tls 8, sub 0, sig 0, ciphers 1, bundle 0, builtin 0}
+debug	2025-07-29 09:27:44.005561 +0200	DRMPlayer	Connection 1: set is idle false
+default	2025-07-29 09:27:44.005563 +0200	DRMPlayer	[C1] event: client:connection_reused @0.476s
+info	2025-07-29 09:27:44.005578 +0200	DRMPlayer	nw_endpoint_handler_report_connection_idle [C1 54.76.87.7:443 ready parent-flow (satisfied (Path is satisfied), interface: en0[802.11], ipv4, dns, uses wifi)] Reporting connection not idle to protocols
+info	2025-07-29 09:27:44.005584 +0200	DRMPlayer	nw_flow_passthrough_notify [C1.1.1.1 54.76.87.7:443 ready channel-flow (satisfied (Path is satisfied), viable, interface: en0[802.11], ipv4, dns, uses wifi)] received notification connection_idle
+default	2025-07-29 09:27:44.009113 +0200	DRMPlayer	Task <E62DBB3C-579B-409F-914C-12826755EC8E>.<2> now using Connection 1
+debug	2025-07-29 09:27:44.009124 +0200	DRMPlayer	Returning should log: 0 for activity cfnetwork:foreground_task
+debug	2025-07-29 09:27:44.009131 +0200	DRMPlayer	nw_connection_modify_estimated_bytes_block_invoke [C1] Incremented estimated bytes to send by 7776, total now 7776
+debug	2025-07-29 09:27:44.009135 +0200	DRMPlayer	nw_connection_modify_estimated_bytes_block_invoke [C1] Using lower threshold 12582912, upper threshold 31457280
+default	2025-07-29 09:27:44.010636 +0200	DRMPlayer	Task <E62DBB3C-579B-409F-914C-12826755EC8E>.<2> sent request, body S 7776
+default	2025-07-29 09:27:44.075963 +0200	DRMPlayer	RX sceneBecameFocused:(null)
+debug	2025-07-29 09:27:44.081460 +0200	DRMPlayer	Decoded RBSProcessHandle with IPC ID 23201bf00000220
+default	2025-07-29 09:27:44.081549 +0200	DRMPlayer	Received state update for 544 (app<ch.defagos.DRMPlayer(7E797F29-FE7E-4E41-B434-297C5F1B59E1)>, unknown-NotVisible
+info	2025-07-29 09:27:44.081810 +0200	DRMPlayer	Update skipped for [app<ch.defagos.DRMPlayer(7E797F29-FE7E-4E41-B434-297C5F1B59E1)>:544]
+default	2025-07-29 09:27:44.082039 +0200	mediaplaybackd	Received state update for 544 (app<ch.defagos.DRMPlayer(7E797F29-FE7E-4E41-B434-297C5F1B59E1)>, running-active-Visible
+info	2025-07-29 09:27:44.082226 +0200	mediaplaybackd	Update skipped for [app<ch.defagos.DRMPlayer(7E797F29-FE7E-4E41-B434-297C5F1B59E1)>:544]
+default	2025-07-29 09:27:44.085385 +0200	DRMPlayer	policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x10264d9a0; token: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Ach.defagos.DRMPlayer-BB522427-6DDD-4370-8A30-8A2EA4374D56; status: none> was:ancestor
+default	2025-07-29 09:27:44.085391 +0200	DRMPlayer	observerPolicyDidChange: 0x10264d9a0 -> <_UIKeyWindowSceneObserver: 0x1026bce70>
+default	2025-07-29 09:27:44.085426 +0200	DRMPlayer	Scene target of keyboard event deferring environment did change: 0; scene: UIWindowScene: 0x1019f49e0; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Ach.defagos.DRMPlayer-BB522427-6DDD-4370-8A30-8A2EA4374D56
+debug	2025-07-29 09:27:44.137017 +0200	DRMPlayer	Decoded RBSProcessHandle with IPC ID 23201bf00000220
+default	2025-07-29 09:27:44.137141 +0200	DRMPlayer	Received state update for 544 (app<ch.defagos.DRMPlayer(7E797F29-FE7E-4E41-B434-297C5F1B59E1)>, unknown-NotVisible
+info	2025-07-29 09:27:44.137310 +0200	DRMPlayer	Update skipped for [app<ch.defagos.DRMPlayer(7E797F29-FE7E-4E41-B434-297C5F1B59E1)>:544]
+default	2025-07-29 09:27:44.138050 +0200	mediaplaybackd	Received state update for 544 (app<ch.defagos.DRMPlayer(7E797F29-FE7E-4E41-B434-297C5F1B59E1)>, running-active-Visible
+info	2025-07-29 09:27:44.138214 +0200	mediaplaybackd	Update skipped for [app<ch.defagos.DRMPlayer(7E797F29-FE7E-4E41-B434-297C5F1B59E1)>:544]
+default	2025-07-29 09:27:44.147620 +0200	DRMPlayer	Task <E62DBB3C-579B-409F-914C-12826755EC8E>.<2> received response, status 200 content K
+default	2025-07-29 09:27:44.147701 +0200	DRMPlayer	Task <E62DBB3C-579B-409F-914C-12826755EC8E>.<2> done using Connection 1
+debug	2025-07-29 09:27:44.147708 +0200	DRMPlayer	Returning should log: 0 for activity cfnetwork:foreground_task
+debug	2025-07-29 09:27:44.147717 +0200	DRMPlayer	Connection 1: set is idle true
+default	2025-07-29 09:27:44.147721 +0200	DRMPlayer	[C1] event: client:connection_idle @0.618s
+info	2025-07-29 09:27:44.147742 +0200	DRMPlayer	nw_endpoint_handler_report_connection_idle [C1 54.76.87.7:443 ready parent-flow (satisfied (Path is satisfied), interface: en0[802.11], ipv4, dns, uses wifi)] Reporting connection idle to protocols
+info	2025-07-29 09:27:44.147753 +0200	DRMPlayer	nw_flow_passthrough_notify [C1.1.1.1 54.76.87.7:443 ready channel-flow (satisfied (Path is satisfied), viable, interface: en0[802.11], ipv4, dns, uses wifi)] received notification connection_idle
+debug	2025-07-29 09:27:44.147757 +0200	DRMPlayer	HTTP/2 Connection 1 Stream 3 ended. Connection considered operational true
+debug	2025-07-29 09:27:44.147818 +0200	DRMPlayer	nw_connection_modify_estimated_bytes_block_invoke [C1] Incremented estimated bytes to receive by 972, total now 2287
+debug	2025-07-29 09:27:44.147824 +0200	DRMPlayer	nw_connection_modify_estimated_bytes_block_invoke [C1] Using lower threshold 12582912, upper threshold 31457280
+default	2025-07-29 09:27:44.147842 +0200	DRMPlayer	Task <E62DBB3C-579B-409F-914C-12826755EC8E>.<2> response ended
+default	2025-07-29 09:27:44.148056 +0200	DRMPlayer	Task <E62DBB3C-579B-409F-914C-12826755EC8E>.<2> summary for task success {transaction_duration_ms=149, response_status=200, connection=1, reused=1, reused_after_ms=138, request_start_ms=10, request_duration_ms=1, response_start_ms=148, response_duration_ms=0, request_bytes=7900, request_throughput_kbps=7615, response_bytes=1136, response_throughput_kbps=3196, cache_hit=false}
+debug	2025-07-29 09:27:44.148075 +0200	DRMPlayer	Returning should log: 0 for activity cfnetwork:foreground_task
+debug	2025-07-29 09:27:44.148077 +0200	DRMPlayer	Returning should log: 0 for activity cfnetwork:foreground_task
+debug	2025-07-29 09:27:44.148077 +0200	DRMPlayer	No threshold for cfnetwork:foreground_task, returning NW_ACTIVITY_DURATION_INVALID
+debug	2025-07-29 09:27:44.148094 +0200	DRMPlayer	No threshold for activity <nw_activity 12:2 [145DC70F-66B6-47FB-9F32-5921E52B4B88] (reporting strategy default) complete (reason success)>
+default	2025-07-29 09:27:44.148097 +0200	DRMPlayer	Task <E62DBB3C-579B-409F-914C-12826755EC8E>.<2> finished successfully
+default	2025-07-29 09:27:44.148230 +0200	DRMPlayer	<<<< AVContentKeySession >>>> -[AVContentKeyRequest processContentKeyResponse:]: 0x10268d870 0x10268dfe0 setting content key response data 0x10e7988a0 to renew at (null)
+default	2025-07-29 09:27:44.148317 +0200	mediaplaybackd	<<<< FigPKDKeyManager >>>> PKDKeyManagerGetKeyRequestStateAndID: 0xd923dfa00 00A184AF-B68F-4225-A265-A9DC81C453EF keyRequestState:1 keyRequestID:0 err:0
+default	2025-07-29 09:27:44.148319 +0200	mediaplaybackd	<<<< FigPKDKeyManager >>>> PKDKeyManagerSetKeyRequestResponseForKeyID: 0xd923dfa00 00A184AF-B68F-4225-A265-A9DC81C453EF keyRequestResponse:0xd92b78f00
+default	2025-07-29 09:27:44.148323 +0200	mediaplaybackd	<<<< FigPKDKeyManager >>>> keyManager_processOnlineKeyInternal: 0xd923dfa00 00A184AF-B68F-4225-A265-A9DC81C453EF input:0xd928e8f20
+default	2025-07-29 09:27:44.158438 +0200	mediaplaybackd	<<<< FigPKDKeyManager >>>> keyManager_processOnlineKeyInternal: 0xd923dfa00 00A184AF-B68F-4225-A265-A9DC81C453EF consumed key response and created decryptContext:0xb3340045
+default	2025-07-29 09:27:44.159957 +0200	mediaplaybackd	<<<< FigCPECryptorPKD >>>> FigPKDCPECryptorSetKeyRequestResponse: 0xd933f0c10 00A184AF-B68F-4225-A265-A9DC81C453EF keyResponseOptions:[] keyRequestResponse:0xd92b78f00 err:0
+default	2025-07-29 09:27:44.159979 +0200	mediaplaybackd	keyboss ckb_transitionRequestToTerminalState: 0xd925dc010 3/0 reqFin err <private> (0) dokeyCallbacksExist 0
+default	2025-07-29 09:27:44.160015 +0200	mediaplaybackd	keyboss ckb_processResponse: 0xd925dc010 3/0 0xd92b78f00 err 0
+default	2025-07-29 09:27:44.160053 +0200	mediaplaybackd	ckeyboss ckcb_sendStatusCallbackDispatch: 0xd9206da40 <private> cryptor 0xd933f0c10 error <private> (0)
+default	2025-07-29 09:27:44.160109 +0200	mediaplaybackd	<SEGPUMP> segPumpKeyRequestDidSucceed: 0xd92292800:0: (null) 1/0
+default	2025-07-29 09:27:44.160137 +0200	mediaplaybackd	keyboss ckr_finalize: 0xd925dc010 3/0

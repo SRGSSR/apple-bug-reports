@@ -33,3 +33,33 @@ Actual results:
 ---------------
 
 The reported seekable time ranges for MP3 audio files played with `AVPlayer` are incorrect in iPad applications run on macOS.
+
+
+Update:
+-------
+
+The issue can be fixed by loading the item with "duration" added to the set of automatically loaded asset keys:
+
+```swift
+let player = AVPlayer(playerItem: .init(
+    asset: .init(url: URL(string: "https://rts-aod-dd.akamaized.net/ww/13306839/63cc2653-8305-3894-a448-108810b553ef.mp3")!),
+    automaticallyLoadedAssetKeys: ["duration"]
+))
+```
+
+Note that AVPlayerItem's header documentation states that:
+
+```swift
+/// Initializes an AVPlayerItem with an AVAsset.
+/// 
+/// Equivalent to -initWithAsset:automaticallyLoadedAssetKeys:, passing @[ @"duration" ] as the value of automaticallyLoadedAssetKeys.
+/// 
+/// This method, along with the companion `asset` property, is MainActor-isolated for Swift clients because AVAsset is not Sendable. If you are using a Sendable subclass of AVAsset, such as AVURLAsset, an overload of this initializer will be chosen automatically to allow you to initialize an AVPlayerItem while not running on the main actor.
+/// 
+/// - Parameter asset:
+/// 
+/// - Returns: An instance of AVPlayerItem
+public convenience init(asset: AVAsset)
+```
+
+It is therefore likely that either the documentation should be updated to account for a difference in behavior on macOS, or the implementation should be aligned on the documentation so that the indicated set of keys is loaded on all platforms consistently.

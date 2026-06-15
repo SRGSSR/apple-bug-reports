@@ -1,5 +1,7 @@
 # `ContentUnavailableView` may lead to unnecessary re-creation of state associated with views it embeds
 
+> This issue has been fixed in iOS 27.
+
 Description of the problem:
 ---------------------------
 

@@ -1,5 +1,7 @@
 # tvOS 26 regression: Huge memory leaks associated with navigation marker artworks displayed in the tvOS standard user interface
 
+> This issue has been fixed in tvOS 27.
+
 Description of the problem:
 ---------------------------
 

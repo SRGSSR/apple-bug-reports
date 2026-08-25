@@ -1,5 +1,7 @@
 # AVFoundation and FairPlay: AVContentKeySession key request creation fails after several hours
 
+> This issue has been fixed in iOS 26.3.
+
 ## Description of the problem
 
 We use AVFoundation and `AVPlayer` to play content protected with FairPlay Streaming encryption. Our implementation relies on the modern `AVContentKeySession` API for handling content key retrieval.

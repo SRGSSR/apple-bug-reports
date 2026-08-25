@@ -1,5 +1,7 @@
 # Toggling `isMuted` for an `AVQueuePlayer` stops working a short while after the player preloaded its next item in the queue
 
+> This issue has been fixed in some iOS 26 minor release.
+
 Description of the problem:
 ---------------------------
 

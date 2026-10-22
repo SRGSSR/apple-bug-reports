@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Basic Stream</string>
+		<key>playlist_url</key>
+		<string>https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Advanced Stream</string>
+		<key>playlist_url</key>
+		<string>https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bitmovin (AES-128)</string>
+		<key>playlist_url</key>
+		<string>https://playertest.longtailvideo.com/adaptive/oceans_aes/oceans_aes.m3u8</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Unified Streaming 1 (AES-128)</string>
+		<key>playlist_url</key>
+		<string>https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel-multikey-cenc.ism/.m3u8</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Unified Streaming 2 (AES-128)</string>
+		<key>playlist_url</key>
+		<string>https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel-aes.ism/.m3u8</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>hls.js demo 1 (AES-128)</string>
+		<key>playlist_url</key>
+		<string>https://playertest.longtailvideo.com/adaptive/oceans_aes/oceans_aes.m3u8</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>hls.js demo 2 (AES-128)</string>
+		<key>playlist_url</key>
+		<string>https://playertest.longtailvideo.com/adaptive/aes-with-tracks/master.m3u8</string>
+	</dict>
+</array>
+</plist>
